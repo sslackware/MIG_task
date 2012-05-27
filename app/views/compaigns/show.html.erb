@@ -1,0 +1,17 @@
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Votes counted</th>
+    <th>Votes not counted</th>
+  </tr>
+
+  <% @candidates.each do |candidate| %>
+      <tr>
+        <td><%= candidate.name %></td>
+        <td><%= candidate.counted %></td>
+        <td><%= candidate.not_counted %></td>
+      </tr>
+  <% end %>
+</table>
+
+<%= link_to 'Back', :back %>

@@ -1,0 +1,7 @@
+To load the data into database:
+
+rails console < start.rb
+
+All the logic responsible for loading the data is available in input_file_reader.rb
+
+Tests are available in input_file_reader_test.rb

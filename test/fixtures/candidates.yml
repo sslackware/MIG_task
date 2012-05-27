@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  compaing: MyString
+  name: MyString
+  counted: 
+  not_counted: 
+
+two:
+  compaing: MyString
+  name: MyString
+  counted: 
+  not_counted: 
